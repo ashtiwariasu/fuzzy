@@ -1,0 +1,972 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="-18" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\isb\Desktop\schools.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>schools.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" />
+            <Field name="UDISECode" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" />
+            <Field name="ï..DISTRICT_NAME" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" />
+            <Field name="School_Name.x" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" />
+            <Field name="Block.Name" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\isb\Desktop\same_students.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>same_students.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="Field_1_2" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="class" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MatchID" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="Right_ROLL" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="ROLL2" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MatchScore" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MatchScore_NAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MatchScore_FNAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+            <Field name="MatchScore_MNAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" />
+            <SelectField field="SCHL" selected="True" rename="SCHOOLID" />
+            <SelectField field="DISTNM" selected="True" rename="DISTNAME" />
+            <SelectField field="SCHOOLE" selected="True" rename="SCHOOLNAME" />
+            <SelectField field="UDISECode" selected="False" />
+            <SelectField field="ï..DISTRICT_NAME" selected="False" />
+            <SelectField field="School_Name.x" selected="False" />
+            <SelectField field="Block.Name" selected="False" />
+            <SelectField field="Field_1_2" selected="False" />
+            <SelectField field="CENT" selected="False" />
+            <SelectField field="ID" selected="False" />
+            <SelectField field="ROLL" selected="False" />
+            <SelectField field="NAME" selected="False" />
+            <SelectField field="DOB" selected="False" />
+            <SelectField field="PHY_CHAL" selected="False" />
+            <SelectField field="FNAME" selected="False" />
+            <SelectField field="MNAME" selected="False" />
+            <SelectField field="SEX" selected="False" />
+            <SelectField field="CASTE" selected="False" />
+            <SelectField field="RELIGION" selected="False" />
+            <SelectField field="AREA" selected="False" />
+            <SelectField field="USERTYPE" selected="False" />
+            <SelectField field="year" selected="False" />
+            <SelectField field="class" selected="False" />
+            <SelectField field="WITHHELD" selected="False" />
+            <SelectField field="TOTAL" selected="False" />
+            <SelectField field="TOTMAX" selected="False" />
+            <SelectField field="RESULT" selected="False" />
+            <SelectField field="GRADE" selected="False" />
+            <SelectField field="EN" selected="False" />
+            <SelectField field="ENMAX" selected="False" />
+            <SelectField field="PB" selected="False" />
+            <SelectField field="PBMAX" selected="False" />
+            <SelectField field="MATHS" selected="False" />
+            <SelectField field="MMAX" selected="False" />
+            <SelectField field="MatchID" selected="False" />
+            <SelectField field="Right_ROLL" selected="False" />
+            <SelectField field="ROLL2" selected="False" />
+            <SelectField field="MatchScore" selected="False" />
+            <SelectField field="MatchScore_NAME" selected="False" />
+            <SelectField field="MatchScore_FNAME" selected="False" />
+            <SelectField field="MatchScore_MNAME" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_21060_5d7a8ea1953648a58f9b3f976d346bb1_\Engine_1688_dddd3183a3cd475293bf06a898917e26_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="522" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="SCHOOLID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: SCHOOLID</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="798" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="RecordID_schools" source="RecordID: Starting Value=7000000" type="Int32" column="1" />
+                <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" column="2" />
+                <Field name="SCHOOLID" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" column="3" />
+                <Field name="DISTNAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" column="4" />
+                <Field name="SCHOOLNAME" size="254" source="File: C:\Users\isb\Desktop\same_students.csv" type="V_String" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="RecordID_schools" source="RecordID: Starting Value=5000000" type="Int32" column="1" />
+                <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" column="2" />
+                <Field name="DISTNAME" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" column="4" />
+                <Field name="SCHOOLNAME" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" column="5" />
+                <Field name="UDISE" size="254" source="File: C:\Users\isb\Desktop\schools.csv" type="V_String" column="6" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FuzzyMatch.FuzzyMatch">
+        <Position x="894" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RecordIdField>RecordID_schools</RecordIdField>
+          <MatchThreshold value="80" />
+          <OutputScore value="True" />
+          <OutputKey value="False" />
+          <OutputUnmatched value="False" />
+          <OutputMakeGroup value="False" />
+          <GenerateKeys value="False" />
+          <MatchFields>
+            <MatchField>
+              <FieldName>DISTNAME</FieldName>
+              <Style Name="Custom">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords />
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>JaroTFIDF</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="95" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+            <MatchField>
+              <FieldName>SCHOOLNAME</FieldName>
+              <Style Name="Custom">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords />
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>JaroTFIDF</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="92" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+          </MatchFields>
+          <MergeMode value="True" />
+          <SourceIdField>Field_1</SourceIdField>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFuzzyMatch" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1002" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="RecordID_schools" />
+            <Field field="RecordID_schools2" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: RecordID_schools, RecordID_schools2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="606" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID_schools</FieldName>
+          <StartValue>7000000</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1146" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_21060_5d7a8ea1953648a58f9b3f976d346bb1_\Engine_1688_6396397845f2436aae895d9bbf3c0c6b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1206" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID_schools" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID_schools" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID_schools" selected="True" rename="Right_RecordID_schools" input="Right_" />
+                <SelectField field="Right_RecordID" selected="True" rename="Right_RecordID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="690" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID_schools</FieldName>
+          <StartValue>5000000</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1290" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_21060_5d7a8ea1953648a58f9b3f976d346bb1_\Engine_1688_7822b97b08034cba873292e94c027cc8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1518" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\isb\Desktop\macted_schools.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>macted_schools.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1326" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID_schools2" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID_schools" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_RecordID_schools" selected="True" rename="Left_Right_RecordID_schools" input="Left_" />
+                <SelectField field="Right_RecordID_schools" selected="True" rename="Right_RecordID_schools" input="Right_" />
+                <SelectField field="Right_Field_1" selected="True" rename="Right_Field_1" input="Right_" />
+                <SelectField field="Right_DISTNAME" selected="True" rename="Right_DISTNAME" input="Right_" />
+                <SelectField field="Right_SCHOOLNAME" selected="True" rename="Right_SCHOOLNAME" input="Right_" />
+                <SelectField field="Left_Right_RecordID" selected="True" rename="Left_Right_RecordID" input="Left_" />
+                <SelectField field="Right_RecordID" selected="True" rename="Right_RecordID" input="Right_" />
+                <SelectField field="Right_DISTRICT" selected="True" rename="Right_DISTRICT" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_21060_5d7a8ea1953648a58f9b3f976d346bb1_\Engine_1688_d63ba621bd8246d6a0667e21d0ba9261_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_21060_5d7a8ea1953648a58f9b3f976d346bb1_\Engine_1688_6f5b1f0795c04512ba0b49445e2d5185_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="66" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" />
+            <SelectField field="UDISECode" selected="True" rename="UDISE" />
+            <SelectField field="ï..DISTRICT_NAME" selected="True" rename="DISTNAME" />
+            <SelectField field="School_Name.x" selected="True" rename="SCHOOLNAME" />
+            <SelectField field="Block.Name" selected="False" rename="BLOCK" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="606" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="UDISE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: UDISE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="354" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>SCHOOLNAME</Field>
+          <RegExExpression value="GHS" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="GOVT. HIGH SCHOOL">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>UDISE_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Replace:
+GHS
+GOVT. HIGH SCHOOL</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!Contains([SCHOOLNAME],"GPS")</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>NotContains</Operator>
+            <Field>SCHOOLNAME</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-11-03 15:35:17</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2019-11-03 15:35:17</StartDate>
+              <EndDate>2019-11-03 15:35:17</EndDate>
+              <Operand>GPS</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([SCHOOLNAME],"GPS")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!Contains([SCHOOLNAME],"GMS")</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>NotContains</Operator>
+            <Field>SCHOOLNAME</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-11-03 15:35:23</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2019-11-03 15:35:23</StartDate>
+              <EndDate>2019-11-03 15:35:23</EndDate>
+              <Operand>GMS</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([SCHOOLNAME],"GMS")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>SCHOOLNAME</Field>
+          <RegExExpression value="GSSS" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="GOVT. SENIOR SECONDARY SCHOOL">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>UDISE_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Replace:
+GSSS
+GOVT. SENIOR SECONDARY SCHOOL</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1554" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_21060_5d7a8ea1953648a58f9b3f976d346bb1_\Engine_1688_8ef62c052b0e429193345906d8a511bc_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1434" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="UDISE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: UDISE</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Unique" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Unique" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="24" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="24" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Unique" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>school_merge</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

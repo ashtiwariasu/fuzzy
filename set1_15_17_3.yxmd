@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\isb\Desktop\student_12_17.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>student_12_17.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="class" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+            <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\isb\Desktop\student_10_15.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>student_10_15.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="class" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+            <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="222" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="1" />
+                <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="2" />
+                <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="3" />
+                <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="4" />
+                <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="5" />
+                <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="6" />
+                <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="7" />
+                <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="8" />
+                <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="9" />
+                <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="10" />
+                <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="11" />
+                <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="12" />
+                <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="13" />
+                <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="14" />
+                <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="15" />
+                <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="16" />
+                <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="17" />
+                <Field name="year" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="18" />
+                <Field name="class" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="19" />
+                <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="20" />
+                <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="21" />
+                <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="22" />
+                <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="23" />
+                <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="24" />
+                <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="25" />
+                <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="26" />
+                <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="27" />
+                <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="28" />
+                <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="29" />
+                <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="30" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="1" />
+                <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="2" />
+                <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="3" />
+                <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="4" />
+                <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="5" />
+                <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="6" />
+                <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="7" />
+                <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="8" />
+                <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="9" />
+                <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="10" />
+                <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="11" />
+                <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="12" />
+                <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="13" />
+                <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="14" />
+                <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="15" />
+                <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="16" />
+                <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="17" />
+                <Field name="year" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="18" />
+                <Field name="class" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="19" />
+                <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="20" />
+                <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="21" />
+                <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="22" />
+                <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="23" />
+                <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="24" />
+                <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="25" />
+                <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="26" />
+                <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="27" />
+                <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="28" />
+                <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="29" />
+                <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="30" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FuzzyMatch.FuzzyMatch">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RecordIdField>ROLL</RecordIdField>
+          <MatchThreshold value="80" />
+          <OutputScore value="True" />
+          <OutputKey value="False" />
+          <OutputUnmatched value="False" />
+          <OutputMakeGroup value="False" />
+          <GenerateKeys value="False" />
+          <MatchFields>
+            <MatchField>
+              <FieldName>NAME</FieldName>
+              <Style Name="Name">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords />
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>JaroTFIDF</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="85" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+            <MatchField>
+              <FieldName>DOB</FieldName>
+              <Style Name="Exact">
+                <KeyGeneration>
+                  <KeyFunction>WholeField</KeyFunction>
+                  <UseWords value="False" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="25" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>None</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <MatchThreshold value="80" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+            <MatchField>
+              <FieldName>FNAME</FieldName>
+              <Style Name="Name">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords />
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>JaroTFIDF</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="85" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+            <MatchField>
+              <FieldName>MNAME</FieldName>
+              <Style Name="Name">
+                <PreProcess name="Strip Punctuation">
+                  <Search>(['-])|(\s?[[:punct:]]\s?)</Search>
+                  <Replace>(?2 :)</Replace>
+                </PreProcess>
+                <KeyGeneration>
+                  <KeyFunction>DblMetaphone</KeyFunction>
+                  <UseWords value="True" />
+                  <IgnoreWords />
+                  <IgnoreSingleLetterWords value="True" />
+                  <IgnoreEmpty value="True" />
+                  <MaxKeyLen value="4" />
+                </KeyGeneration>
+                <Match>
+                  <MatchFunction>JaroTFIDF</MatchFunction>
+                  <AdditionalMatchFunction>NoSpace</AdditionalMatchFunction>
+                  <WordStats />
+                  <NicknameFile />
+                  <NicknamePenalty value="15" />
+                  <MatchThreshold value="85" />
+                  <MatchWeight value="100" />
+                </Match>
+              </Style>
+            </MatchField>
+          </MatchFields>
+          <MergeMode value="True" />
+          <SourceIdField>Field_1</SourceIdField>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFuzzyMatch" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_18444_e631422f50d7490d89fa88c664bd566b_\Engine_1688_f4763827643448ad8adf5781e624b00b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="558" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ROLL" />
+            <Field field="ROLL2" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: ROLL, ROLL2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_18444_e631422f50d7490d89fa88c664bd566b_\Engine_1688_741ec182f0214de0a89b6316d1d8f101_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_18444_e631422f50d7490d89fa88c664bd566b_\Engine_1688_f42a3f82fea348c3a7d27d5bfaa9baa9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="798" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ROLL" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ROLL2" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ROLL" selected="True" rename="Right_ROLL" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_18444_e631422f50d7490d89fa88c664bd566b_\Engine_1688_d7f6bc8f9e4a46c69bd2021f159e3ff9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1374" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\isb\Desktop\output_set1.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output_set1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="762" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ROLL" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ROLL" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ROLL" selected="True" rename="Right_ROLL" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_18444_e631422f50d7490d89fa88c664bd566b_\Engine_1688_5943cb42b10845c19dda5f35873a2d77_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1026" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="1" />
+                <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="2" />
+                <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="3" />
+                <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="4" />
+                <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="5" />
+                <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="6" />
+                <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="7" />
+                <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="8" />
+                <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="9" />
+                <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="10" />
+                <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="11" />
+                <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="12" />
+                <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="13" />
+                <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="14" />
+                <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="15" />
+                <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="16" />
+                <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="17" />
+                <Field name="year" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="18" />
+                <Field name="class" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="19" />
+                <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="20" />
+                <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="21" />
+                <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="22" />
+                <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="23" />
+                <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="24" />
+                <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="25" />
+                <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="26" />
+                <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="27" />
+                <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="28" />
+                <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="29" />
+                <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\student_12_17.csv" type="V_String" column="30" />
+                <Field name="MatchID" source="RecordID: Starting Value=1000000" type="Int64" column="31" />
+                <Field name="Right_ROLL" size="254" source="File: (Multiple Sources)" type="V_String" column="32" />
+                <Field name="ROLL2" size="254" source="File: (Multiple Sources)" type="V_String" column="33" />
+                <Field name="MatchScore" type="Byte" column="34" />
+                <Field name="MatchScore_NAME" type="Byte" column="35" />
+                <Field name="MatchScore_FNAME" type="Byte" column="36" />
+                <Field name="MatchScore_MNAME" type="Byte" column="37" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="1" />
+                <Field name="SCHL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="2" />
+                <Field name="CENT" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="3" />
+                <Field name="ID" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="4" />
+                <Field name="ROLL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="5" />
+                <Field name="NAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="6" />
+                <Field name="DOB" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="7" />
+                <Field name="PHY_CHAL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="8" />
+                <Field name="FNAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="9" />
+                <Field name="MNAME" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="10" />
+                <Field name="SEX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="11" />
+                <Field name="CASTE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="12" />
+                <Field name="RELIGION" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="13" />
+                <Field name="AREA" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="14" />
+                <Field name="DISTNM" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="15" />
+                <Field name="SCHOOLE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="16" />
+                <Field name="USERTYPE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="17" />
+                <Field name="year" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="18" />
+                <Field name="class" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="19" />
+                <Field name="WITHHELD" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="20" />
+                <Field name="TOTAL" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="21" />
+                <Field name="TOTMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="22" />
+                <Field name="RESULT" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="23" />
+                <Field name="GRADE" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="24" />
+                <Field name="EN" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="25" />
+                <Field name="ENMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="26" />
+                <Field name="PB" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="27" />
+                <Field name="PBMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="28" />
+                <Field name="MATHS" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="29" />
+                <Field name="MMAX" size="254" source="File: C:\Users\isb\Desktop\student_10_15.csv" type="V_String" column="30" />
+                <Field name="MatchID" source="RecordID: Starting Value=1000000" type="Int64" column="31" />
+                <Field name="Right_ROLL" size="254" source="File: (Multiple Sources)" type="V_String" column="32" />
+                <Field name="ROLL2" size="254" source="File: (Multiple Sources)" type="V_String" column="33" />
+                <Field name="MatchScore" type="Byte" column="34" />
+                <Field name="MatchScore_NAME" type="Byte" column="35" />
+                <Field name="MatchScore_FNAME" type="Byte" column="36" />
+                <Field name="MatchScore_MNAME" type="Byte" column="37" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1146" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\isb\AppData\Local\Temp\Engine_18444_e631422f50d7490d89fa88c664bd566b_\Engine_1688_b143c341704a42bd86c5438ff46225db_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="702" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>MatchID</FieldName>
+          <StartValue>1000000</StartValue>
+          <FieldType>Int64</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#2">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="16" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="16" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>set1_15_17_3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
